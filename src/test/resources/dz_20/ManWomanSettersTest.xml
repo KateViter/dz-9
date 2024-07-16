@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Man and Woman classes test" >
+    <test name="Setters test">
+        <groups>
+            <run>
+                <include name="setters"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="dz_20"/>
+        </packages>
+    </test>
+</suite>
