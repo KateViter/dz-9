@@ -1,8 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Man and Woman classes test" >
+<suite name="Man and Woman classes test" parallel="classes" thread-count="3">
     <test name="All tests">
-        <packages>
-            <package name="dz_11"/>
-        </packages>
+        <classes>
+            <class name="dz_11.ManTest"/>
+            <class name="dz_11.WomanTest"/>
+        </classes>
     </test>
 </suite>
